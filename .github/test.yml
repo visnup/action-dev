@@ -1,0 +1,9 @@
+name: Test
+
+on:
+  push:
+
+jobs:
+  test:
+    steps:
+      - uses: actions/checkout@v2
